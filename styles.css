@@ -18,13 +18,13 @@ body {
 }
 
 .container {
-  background: #d07bef;
-  border: 2px solid #f29bfa;
+  background: #d3c7d8;
+  border: 2px solid #6b686b;
   border-radius: 16px;
   padding: 30px;
   width: 90%;
   max-width: 1000px;
-  box-shadow: 0 8px 20px rgba(219, 133, 238, 0.06);
+  box-shadow: 0 8px 20px rgba(218, 192, 224, 0.06);
   display: flex;
   align-items: center;
   gap: 30px;
@@ -89,7 +89,7 @@ input[type="radio"] {
   border-radius: 14px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   border: 2px solid #d77ff8;
-  background-color: #e183e8;
+  background-color: #fffcff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,9 +151,9 @@ input[type="radio"] {
 /* PLAYER */
 .player {
   margin-top: 20px;
-  border: 2px solid #73eada;
+  border: 2px solid #3d3f3f;
   border-radius: 14px;
-  background-color: #5d87be;
+  background-color: #c8d5e4;
   color: #333;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(165, 58, 58, 0.08);
