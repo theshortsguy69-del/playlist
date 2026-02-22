@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Playlist</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Comic+Neue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- MAIN CONTAINER -->
+    <div class="container">
+      <!-- LEFT SIDE -->
+      <div class="left-side">
+        <h1>Playlist</h1>
+        <p>Songs that remind me of my LOVE </p>
+      </div>
+      <!-- RIGHT SIDE -->
+      <div class="right-side">
+        <!-- Hidden radios -->
+        <input type="radio" name="slider" id="item-1" checked />
+        <input type="radio" name="slider" id="item-2" />
+        <input type="radio" name="slider" id="item-3" />
+        <input type="radio" name="slider" id="item-4" />
+        <input type="radio" name="slider" id="item-5" />
+        <input type="radio" name="slider" id="item-6" />
+        <input type="radio" name="slider" id="item-7" />
+        <input type="radio" name="slider" id="item-8" />
+
+        <!-- CARDS -->
+        <div class="cards">
+          <!-- Song 1: Seasons -->
+          <label class="card" for="item-1" id="song-1">
+            <img src="Khat.png" alt="Khat" />
+          </label>
+          <!-- Song 2: ivy -->
+          <label class="card" for="item-2" id="song-2">
+            <img src="sajjan rajvi.png" alt=" Sajjan Razzi" />
+          </label>
+          <!-- Song 3: Daylight -->
+          <label class="card" for="item-3" id="song-3">
+            <img src="Itna na mujse pyaar badha.png" alt="Itna Na Mujse Tu Pyaar Badha" />
+          </label>
+          <!-- Song 4: One Summer’s Day -->
+          <label class="card" for="item-4" id="song-4">
+            <img src="piyu bole.png" alt="Piyu Bole" />
+          </label>
+          <!-- Song 5: About You -->
+          <label class="card" for="item-5" id="song-5">
+            <img src="Kal chaudevin ki raat thi.png" alt="Kal Chaudhvin Ki Raat Thi" />
+          </label>
+          <!-- Song 6: About You -->
+          <label class="card" for="item-6" id="song-6">
+            <img src="Follow you down.png" alt="Follow You Down" />
+          </label>
+          <!-- Song 7: About You -->
+          <label class="card" for="item-7" id="song-7">
+            <img src="sapna jahan.png" alt="Sapna Jahan" />
+          </label>
+          <!-- Song 8: About You -->
+          <label class="card" for="item-8" id="song-8">
+            <img src="can't help fallling in love.png" alt="Can't Help Falling In Love" />
+          </label>
+        </div>
+
+        <!-- PLAYER -->
+        <div class="player">
+          <!-- SONG INFO 1: Seasons -->
+          <div class="song-info active" id="song-info-1">
+            <div class="title">Khat</div>
+            <div class="song-details">
+              <span class="artist">Navjot Ahuja</span>
+              <span class="duration">4:56</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+            <div class="time-indicator">
+              <span class="elapsed"></span>
+              <span class="remaining"></span>
+            </div>
+          </div>
+          <!-- SONG INFO 2: ivy -->
+          <div class="song-info" id="song-info-2">
+            <div class="title">Sajjan Raazi</div>
+            <div class="song-details">
+              <span class="artist">Satinder Sartaaj</span>
+              <span class="duration">5:31</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+            <div class="time-indicator">
+              <span class="elapsed"></span>
+              <span class="remaining"></span>
+            </div>
+          </div>
+          <!-- SONG INFO 3: Daylight -->
+          <div class="song-info" id="song-info-3">
+            <div class="title">Itna na mujse tu pyaar badha</div>
+            <div class="song-details">
+              <span class="artist">Talat Mahmood, Lata Mangeshkar</span>
+              <span class="duration">3:55</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+            <div class="time-indicator">
+              <span class="elapsed"></span>
+              <span class="remaining"></span>
+            </div>
+            
+          </div>
+          <!-- SONG INFO 4: One Summer’s Day -->
+          <div class="song-info" id="song-info-4">
+            <div class="title">Piyu Bole</div>
+            <div class="song-details">
+              <span class="artist">Sonu Nigam, Shreya Ghoshal</span>
+              <span class="duration">4:25</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+            <div class="time-indicator">
+              <span class="elapsed"></span>
+              <span class="remaining"></span>
+            </div>
+          </div>
+          <!-- SONG INFO 5: About You -->
+          <div class="song-info" id="song-info-5">
+            <div class="title">Kal chaudhvin ki raat thi</div>
+            <div class="song-details">
+              <span class="artist">Jagjit Singh</span>
+              <span class="duration">6:11</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+            <div class="time-indicator">
+              <span class="elapsed"></span>
+              <span class="remaining"></span>
+            </div>
+          </div>
+          <!-- SONG INFO 6: About You -->
+          <div class="song-info" id="song-info-6">
+            <div class="title">Follow You Down</div>
+            <div class="song-details">
+              <span class="artist">Gin Blossoms</span>
+              <span class="duration">3:45</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+            <div class="time-indicator">
+              <span class="elapsed"></span>
+              <span class="remaining"></span>
+            </div>
+          </div>
+          <!-- SONG INFO 7: About You -->
+          <div class="song-info" id="song-info-7">
+            <div class="title">Sapna Jahan</div>
+            <div class="song-details">
+              <span class="artist">Ajay Atul, Sonu Nigam, Neeti Mohan</span>
+              <span class="duration">5:41</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+            <div class="time-indicator">
+              <span class="elapsed"></span>
+              <span class="remaining"></span>
+            </div>
+          </div>
+          <!-- SONG INFO 8: About You -->
+          <div class="song-info" id="song-info-8">
+            <div class="title">I can't Help falling in Love</div>
+            <div class="song-details">
+              <span class="artist">Elvis Presley</span>
+              <span class="duration">3:05</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+            <div class="time-indicator">
+              <span class="elapsed"></span>
+              <span class="remaining"></span>
+            </div>
+          </div>
+
+          <!-- PLAYER CONTROLS -->
+          <div class="controls">
+            <button id="prev">◁</button>
+            <button id="pause">▐▐</button>
+            <button id="next">▷</button>
+          </div>
+          <!-- EXTRA CONTROLS: Favorite Button Only -->
+          <div class="extra-controls">
+            <button id="favorite" class="favorite-btn">♡</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL (Using the provided pop-up content) -->
+
+    <audio id="playlistAudio" src="Sajjan Raazi - Satinder Sartaaj.mp3"></audio>
+
+<div class="modal-overlay" id="notificationModal">
+  <div class="modal-content" id="modalContent">
+    <h2>A playlist dedicated to you from Kapil</h2>
+    <p>Holaa Baby, it's for you. I hope you listen to it.</p>
+    <button class="modal-close" onclick="closeModal()">Open Playlist</button>
+  </div>
+</div>
+
+    <div class="modal-overlay" id="notificationModal">
+      <div class="modal-content" id="modalContent">
+        <h2>A playlist dedicated to you from Kapil</h2>
+        <p>Holaa Baby, it's for you. I hope you listen to it.</p>
+        <button class="modal-close" onclick="closeModal()">Open Playlist</button>
+      </div>
+    </div>
+    <iframe src="Sajjan Raazi - Satinder Sartaaj.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe>
+    <!-- Link to external JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
